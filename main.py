@@ -147,22 +147,3 @@ class YLTK:
 
         return list_of_stopWords
     
-    def remove_stopwords(list_a, document_b):
-        """
-        Removes any text in list_a from document_b and returns the remaining text in document_b.
-
-        :param list_a: List of strings to be removed
-        :param document_b: The document (string) from which the text will be removed
-        :return: The remaining text in document_b as a string
-        """
-        # Convert document_b into a list of words
-        document_b_words = document_b.split()
-
-        # Create a set from list_a for efficient lookup
-        list_a_set = set(list_a)
-
-        # Filter words in document_b that are not in list_a
-        remaining_words = [word for word in document_b_words if word not in list_a_set]
-
-        # Join the remaining words back into a single string
-        return " ".join(remaining_words)
