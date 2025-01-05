@@ -1,5 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import openai
+from collections import Counter
 import os
 
 # Load the API key from the environment variable
