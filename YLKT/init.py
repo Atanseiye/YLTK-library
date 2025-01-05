@@ -165,5 +165,5 @@ class YLTK:
         # Filter words in document_b that are not in list_a
         remaining_words = [word for word in document_b_words if word not in list_a_set]
 
-     
+        # Join the remaining words back into a single string
         return " ".join(remaining_words)
