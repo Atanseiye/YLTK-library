@@ -31,7 +31,12 @@ Add you API_KEY
 ## Usage
 Run the script:
    ```bash
-
     python detect.py --url https://example.com
-   
-    ```
+   ```
+
+## Features
+- Batch processing of large text to extract Yoruba texts alone with the method `extract_yoruba_words`.
+- Frequency count for each words with the method `word_frequency_count`.
+- Generate Stop words that is higher than a specified frequency with the method `stop_words`.
+- Batch Stop words removal from a large Yoruba text using the method `remove_stopwords`
+
