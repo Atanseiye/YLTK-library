@@ -10,17 +10,28 @@ In the similitude of how the NLTK works, where stopwords, stem, lemmas are handl
 - [License](#license)
 
 ## Installation
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/username/project-name.git
+   ```
+Activate virtual environment
+   ```bash
+    YLTK\Scripts\activate
+   ```
+Install requirement
+   ```bash
+    pip install -r requirements.txt
+   ```
 
-   pip install -r requirements.txt
-
+Add you API_KEY
+```bash
    export API_KEY='your-api-key-here'
    ```
 
 ## Usage
-Run the script to classify websites:
-```bash
+Run the script:
+   ```bash
+
     python detect.py --url https://example.com
+   
     ```
