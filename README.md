@@ -8,3 +8,12 @@ In the similitude of how the NLTK works, where stopwords, stem, lemmas are handl
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/project-name.git
+
+   pip install -r requirements.txt
+
+   export API_KEY='your-api-key-here'
