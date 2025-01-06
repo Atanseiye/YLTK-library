@@ -47,3 +47,9 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes: `git commit -m "Add feature-name"`.
 4. Push the branch: `git push origin feature-name`.
 5. Submit a pull request.
+
+## Testing
+Run the tests using:
+   ```bash
+   pytest tests/
+   ```
