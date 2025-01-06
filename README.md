@@ -58,4 +58,4 @@ Run the tests using:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Authors
-- Kolade Atanseiye: koladeatanseiye@gmail.com
+1. Kolade Atanseiye: koladeatanseiye@gmail.com
