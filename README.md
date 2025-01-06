@@ -14,6 +14,6 @@ In the similitude of how the NLTK works, where stopwords, stem, lemmas are handl
    ```bash
    git clone https://github.com/username/project-name.git
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-export API_KEY='your-api-key-here'
+   export API_KEY='your-api-key-here'
