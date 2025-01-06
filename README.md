@@ -8,6 +8,7 @@ In the similitude of how the NLTK works, where stopwords, stem, lemmas are handl
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
+- [Authors](#authors)
 
 ## Installation
 Clone the repository:
