@@ -2,6 +2,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import openai
 from collections import Counter
 import os
+import re
 
 # Load the API key from the environment variable
 api_key = os.getenv("OPENAI_API_KEY")
@@ -100,7 +101,7 @@ class YLTK:
     
     # Getting the frequecy of words
     def word_frequency_count(text):
-        import re
+
         # Helper function to count word frequencies for a chunk of text
         def count_words(text_chunk):
             # Preprocess the text: remove punctuation, convert to lowercase
@@ -167,3 +168,5 @@ class YLTK:
 
         # Join the remaining words back into a single string
         return " ".join(remaining_words)
+    
+
