@@ -17,4 +17,10 @@ In the similitude of how the NLTK works, where stopwords, stem, lemmas are handl
    pip install -r requirements.txt
 
    export API_KEY='your-api-key-here'
+   ```
 
+## Usage
+Run the script to classify websites:
+```bash
+    python detect.py --url https://example.com
+    ```
