@@ -128,24 +128,3 @@ class YLTK:
 
         return dict(total_word_counts)
 
-    # Generating the list of stop words
-    def stop_words(file: dict):
-        # Helper function to check if a word's frequency is greater than or equal to 5
-        def check_word(word_item):
-            word, count = word_item
-            if count >= 5:
-                return word
-            return None
-
-        # Get the maximum number of workers (CPU cores)
-        max_workers = os.cpu_count()
-
-        # Use ThreadPoolExecutor to process the word count items in parallel
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            results = list(executor.map(check_word, file.items()))
-
-        # Filter out the None values (words that don't meet the condition)
-        list_of_stopWords = [word for word in results if word is not None]
-
-        return list_of_stopWords
-    
