@@ -2,3 +2,5 @@ data/
 dist/
 build/
 yltk.egg-info/
+setup.py
+test.py
