@@ -1,1 +1,4 @@
 data/
+dist/
+build/
+yltk.egg-info/
